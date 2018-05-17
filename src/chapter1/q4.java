@@ -18,7 +18,7 @@ public class q4 {
             if(c[i]%2!=0)
                 m += c[i]%2;
         }
-        if(m==0 || m==1)
+        if(m<2)
             System.out.println("It is a palindrome");
         else
             System.out.println("It is not a palindrome");
