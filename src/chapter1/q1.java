@@ -31,7 +31,7 @@ public class q1 {
             return false;
         for(int i=0;i<a.length();i++){
             int c = a.charAt(i);
-            if(b[c]!=0)
+            if(b[c]>1)
                 return true;
             else
                 b[c]++;
