@@ -1,5 +1,6 @@
 package chapter8;
 //magic index, finding index where a[i]=i;
+
 public class q3 {
     //brute force method
     public static int m1(int a[]){
